@@ -151,7 +151,7 @@ if st.button("🚀 Save to MySQL"):
             df.columns = [clean_column_name(col) for col in df.columns]
 
             try:
-                df.to_sql(name=name.lower(), con=engine, if_exists="replace", index=False)
+                df.to_sql(name=name.lower(), con=engine, if_exists="append", index=False)
                 st.success(f"✅ Saved `{name}` to MySQL")
             except Exception as e:
                 st.error(f"❌ Error saving `{name}`: {e}")
