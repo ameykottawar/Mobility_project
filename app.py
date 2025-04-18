@@ -7,13 +7,8 @@ from sqlalchemy import create_engine
 # Set page config at the very top!
 st.set_page_config(page_title="Upload Ad Datasets", layout="wide")
 
-# MySQL credentials
-username = "root"
-password = "741369"
-host = "localhost"
-port = 3306
-database = "mobility"
-engine = create_engine(f"mysql+mysqlconnector://{username}:{password}@{host}:{port}/{database}")
+engine = create_engine("mysql+mysqlconnector://root:aMUNkthGiGHHDwRptYkiECXkZgJArEnT@yamabiko.proxy.rlwy.net:44665/railway")
+
 
 st.title("Mobility Dashboard")
 st.markdown("Upload your CSV or Excel datasets for each platform below. Unwanted columns will be removed automatically. Use 'Transform Columns' to clean names before saving to MySQL.")
