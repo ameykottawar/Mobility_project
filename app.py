@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 # Set page config at the very top!
 st.set_page_config(page_title="Upload Ad Datasets", layout="wide")
 
-engine = create_engine("mysql+mysqlconnector://root:aMUNkthGiGHHDwRptYkiECXkZgJArEnT@yamabiko.proxy.rlwy.net:44665/railway")
+engine = create_engine("mysql://root:rAFSIyKKjVPHigulalHGkwvfyDzgExIE@switchback.proxy.rlwy.net:46784/railway")
 
 
 st.title("Mobility Dashboard")
