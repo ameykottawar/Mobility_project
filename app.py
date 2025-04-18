@@ -83,9 +83,8 @@ columns_to_remove = {
     ],
     "shopify": [
         'Accepts Marketing', 'Currency', 'Discount Code', 'Discount Amount', 'Lineitem compare at price', 
-        'Lineitem requires shipping', 'Lineitem taxable', 'Lineitem fulfillment status', 'Billing Name', 
-      , 'Billing Zip', 'Billing Province', 
-         , 'Shipping Street', 'Shipping Zip', 
+        'Lineitem requires shipping', 'Lineitem taxable', 'Lineitem fulfillment status', 'Billing Name','Billing Zip', 'Billing Province', 
+          'Shipping Street', 'Shipping Zip', 
         'Shipping Province', 'Notes', 'Note Attributes', 'Payment Reference', 'Payment Method', 
         'Vendor', 'Location', 'Device ID', 'Tags', 'Risk Level', 'Source', 'Lineitem discount', 'Tax 1 Name', 
         'Tax 1 Value', 'Tax 2 Name', 'Tax 2 Value', 'Tax 3 Name', 'Tax 3 Value', 'Tax 4 Name', 'Tax 4 Value', 
